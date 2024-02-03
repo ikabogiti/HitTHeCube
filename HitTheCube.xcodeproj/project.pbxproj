@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7364AF02B6EAADE00F2F3BA /* ARView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7364AEF2B6EAADE00F2F3BA /* ARView+extension.swift */; };
+		B7364AF22B6EB15700F2F3BA /* Transform+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7364AF12B6EB15700F2F3BA /* Transform+extension.swift */; };
+		B7364AF42B6EB16600F2F3BA /* Float4x4+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7364AF32B6EB16600F2F3BA /* Float4x4+extension.swift */; };
+		B7364AF62B6EB1A700F2F3BA /* CollisionGroup+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7364AF52B6EB1A700F2F3BA /* CollisionGroup+extension.swift */; };
+		B7364AF82B6EB2E200F2F3BA /* Simd3<Float>+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7364AF72B6EB2E200F2F3BA /* Simd3<Float>+extension.swift */; };
+		B7364AFA2B6EB6E500F2F3BA /* CubeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7364AF92B6EB6E500F2F3BA /* CubeComponent.swift */; };
+		B7364AFC2B6EBC9000F2F3BA /* CubeAnimationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7364AFB2B6EBC9000F2F3BA /* CubeAnimationComponent.swift */; };
+		B75C9CBF2B6ECD1B00BA9336 /* BlobComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75C9CBE2B6ECD1B00BA9336 /* BlobComponent.swift */; };
+		B75C9CC12B6ECD5D00BA9336 /* PlayerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75C9CC02B6ECD5D00BA9336 /* PlayerComponent.swift */; };
+		B75C9CC32B6ECE2200BA9336 /* Entity+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75C9CC22B6ECE2200BA9336 /* Entity+extension.swift */; };
+		B75C9CC52B6ED38E00BA9336 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75C9CC42B6ED38E00BA9336 /* GameManager.swift */; };
+		B75C9CC72B6ED3AD00BA9336 /* ShootManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75C9CC62B6ED3AD00BA9336 /* ShootManager.swift */; };
+		B75C9CC92B6ED3D800BA9336 /* CubeSpawnManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75C9CC82B6ED3D800BA9336 /* CubeSpawnManager.swift */; };
+		B7FE25572B6E87000021DE57 /* HitTheCubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE25562B6E87000021DE57 /* HitTheCubeApp.swift */; };
+		B7FE25592B6E87000021DE57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE25582B6E87000021DE57 /* ContentView.swift */; };
+		B7FE255D2B6E87010021DE57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7FE255C2B6E87010021DE57 /* Assets.xcassets */; };
+		B7FE25602B6E87010021DE57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7FE255F2B6E87010021DE57 /* Preview Assets.xcassets */; };
+		B7FE25692B6E881A0021DE57 /* ARSessionDelegateAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE25682B6E881A0021DE57 /* ARSessionDelegateAdapter.swift */; };
+		B7FE256B2B6E91FD0021DE57 /* GameCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE256A2B6E91FD0021DE57 /* GameCoordinator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B7364AEF2B6EAADE00F2F3BA /* ARView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARView+extension.swift"; sourceTree = "<group>"; };
+		B7364AF12B6EB15700F2F3BA /* Transform+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transform+extension.swift"; sourceTree = "<group>"; };
+		B7364AF32B6EB16600F2F3BA /* Float4x4+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float4x4+extension.swift"; sourceTree = "<group>"; };
+		B7364AF52B6EB1A700F2F3BA /* CollisionGroup+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollisionGroup+extension.swift"; sourceTree = "<group>"; };
+		B7364AF72B6EB2E200F2F3BA /* Simd3<Float>+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Simd3<Float>+extension.swift"; sourceTree = "<group>"; };
+		B7364AF92B6EB6E500F2F3BA /* CubeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeComponent.swift; sourceTree = "<group>"; };
+		B7364AFB2B6EBC9000F2F3BA /* CubeAnimationComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeAnimationComponent.swift; sourceTree = "<group>"; };
+		B75C9CBE2B6ECD1B00BA9336 /* BlobComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobComponent.swift; sourceTree = "<group>"; };
+		B75C9CC02B6ECD5D00BA9336 /* PlayerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerComponent.swift; sourceTree = "<group>"; };
+		B75C9CC22B6ECE2200BA9336 /* Entity+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+extension.swift"; sourceTree = "<group>"; };
+		B75C9CC42B6ED38E00BA9336 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		B75C9CC62B6ED3AD00BA9336 /* ShootManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootManager.swift; sourceTree = "<group>"; };
+		B75C9CC82B6ED3D800BA9336 /* CubeSpawnManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeSpawnManager.swift; sourceTree = "<group>"; };
+		B7FE25532B6E87000021DE57 /* HitTheCube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitTheCube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FE25562B6E87000021DE57 /* HitTheCubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitTheCubeApp.swift; sourceTree = "<group>"; };
+		B7FE25582B6E87000021DE57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7FE255C2B6E87010021DE57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7FE255F2B6E87010021DE57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7FE25682B6E881A0021DE57 /* ARSessionDelegateAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSessionDelegateAdapter.swift; sourceTree = "<group>"; };
+		B7FE256A2B6E91FD0021DE57 /* GameCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCoordinator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7FE25502B6E87000021DE57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B75C9CCA2B6ED3F000BA9336 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				B75C9CCC2B6ED40E00BA9336 /* ECS */,
+				B75C9CCB2B6ED40000BA9336 /* Extensions */,
+				B7FE256A2B6E91FD0021DE57 /* GameCoordinator.swift */,
+				B7FE25682B6E881A0021DE57 /* ARSessionDelegateAdapter.swift */,
+				B75C9CC42B6ED38E00BA9336 /* GameManager.swift */,
+				B75C9CC62B6ED3AD00BA9336 /* ShootManager.swift */,
+				B75C9CC82B6ED3D800BA9336 /* CubeSpawnManager.swift */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		B75C9CCB2B6ED40000BA9336 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B75C9CC22B6ECE2200BA9336 /* Entity+extension.swift */,
+				B7364AEF2B6EAADE00F2F3BA /* ARView+extension.swift */,
+				B7364AF72B6EB2E200F2F3BA /* Simd3<Float>+extension.swift */,
+				B7364AF52B6EB1A700F2F3BA /* CollisionGroup+extension.swift */,
+				B7364AF12B6EB15700F2F3BA /* Transform+extension.swift */,
+				B7364AF32B6EB16600F2F3BA /* Float4x4+extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B75C9CCC2B6ED40E00BA9336 /* ECS */ = {
+			isa = PBXGroup;
+			children = (
+				B7364AF92B6EB6E500F2F3BA /* CubeComponent.swift */,
+				B7364AFB2B6EBC9000F2F3BA /* CubeAnimationComponent.swift */,
+				B75C9CC02B6ECD5D00BA9336 /* PlayerComponent.swift */,
+				B75C9CBE2B6ECD1B00BA9336 /* BlobComponent.swift */,
+			);
+			path = ECS;
+			sourceTree = "<group>";
+		};
+		B7FE254A2B6E87000021DE57 = {
+			isa = PBXGroup;
+			children = (
+				B7FE25552B6E87000021DE57 /* HitTheCube */,
+				B7FE25542B6E87000021DE57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7FE25542B6E87000021DE57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7FE25532B6E87000021DE57 /* HitTheCube.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7FE25552B6E87000021DE57 /* HitTheCube */ = {
+			isa = PBXGroup;
+			children = (
+				B7FE25562B6E87000021DE57 /* HitTheCubeApp.swift */,
+				B7FE25582B6E87000021DE57 /* ContentView.swift */,
+				B7FE255C2B6E87010021DE57 /* Assets.xcassets */,
+				B75C9CCA2B6ED3F000BA9336 /* AR */,
+				B7FE255F2B6E87010021DE57 /* Preview Assets.xcassets */,
+			);
+			path = HitTheCube;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7FE25522B6E87000021DE57 /* HitTheCube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FE25632B6E87010021DE57 /* Build configuration list for PBXNativeTarget "HitTheCube" */;
+			buildPhases = (
+				B7FE254F2B6E87000021DE57 /* Sources */,
+				B7FE25502B6E87000021DE57 /* Frameworks */,
+				B7FE25512B6E87000021DE57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HitTheCube;
+			productName = HitTheCube;
+			productReference = B7FE25532B6E87000021DE57 /* HitTheCube.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7FE254B2B6E87000021DE57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B7FE25522B6E87000021DE57 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = B7FE254E2B6E87000021DE57 /* Build configuration list for PBXProject "HitTheCube" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7FE254A2B6E87000021DE57;
+			productRefGroup = B7FE25542B6E87000021DE57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7FE25522B6E87000021DE57 /* HitTheCube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7FE25512B6E87000021DE57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FE25602B6E87010021DE57 /* Preview Assets.xcassets in Resources */,
+				B7FE255D2B6E87010021DE57 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7FE254F2B6E87000021DE57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7364AFA2B6EB6E500F2F3BA /* CubeComponent.swift in Sources */,
+				B75C9CC52B6ED38E00BA9336 /* GameManager.swift in Sources */,
+				B7364AF42B6EB16600F2F3BA /* Float4x4+extension.swift in Sources */,
+				B75C9CBF2B6ECD1B00BA9336 /* BlobComponent.swift in Sources */,
+				B7FE256B2B6E91FD0021DE57 /* GameCoordinator.swift in Sources */,
+				B7FE25692B6E881A0021DE57 /* ARSessionDelegateAdapter.swift in Sources */,
+				B7364AF22B6EB15700F2F3BA /* Transform+extension.swift in Sources */,
+				B75C9CC92B6ED3D800BA9336 /* CubeSpawnManager.swift in Sources */,
+				B7FE25592B6E87000021DE57 /* ContentView.swift in Sources */,
+				B7364AF82B6EB2E200F2F3BA /* Simd3<Float>+extension.swift in Sources */,
+				B75C9CC32B6ECE2200BA9336 /* Entity+extension.swift in Sources */,
+				B7364AF62B6EB1A700F2F3BA /* CollisionGroup+extension.swift in Sources */,
+				B75C9CC12B6ECD5D00BA9336 /* PlayerComponent.swift in Sources */,
+				B7364AFC2B6EBC9000F2F3BA /* CubeAnimationComponent.swift in Sources */,
+				B7FE25572B6E87000021DE57 /* HitTheCubeApp.swift in Sources */,
+				B7364AF02B6EAADE00F2F3BA /* ARView+extension.swift in Sources */,
+				B75C9CC72B6ED3AD00BA9336 /* ShootManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B7FE25612B6E87010021DE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7FE25622B6E87010021DE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7FE25642B6E87010021DE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hit The cube";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
+				INFOPLIST_KEY_NSCameraUsageDescription = "I want to see your environment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ikabogiti.HitTheCube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B7FE25652B6E87010021DE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hit The cube";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
+				INFOPLIST_KEY_NSCameraUsageDescription = "I want to see your environment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ikabogiti.HitTheCube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7FE254E2B6E87000021DE57 /* Build configuration list for PBXProject "HitTheCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FE25612B6E87010021DE57 /* Debug */,
+				B7FE25622B6E87010021DE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7FE25632B6E87010021DE57 /* Build configuration list for PBXNativeTarget "HitTheCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FE25642B6E87010021DE57 /* Debug */,
+				B7FE25652B6E87010021DE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7FE254B2B6E87000021DE57 /* Project object */;
+}
