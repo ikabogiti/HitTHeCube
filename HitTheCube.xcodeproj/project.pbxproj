@@ -26,6 +26,7 @@
 		B7FE25602B6E87010021DE57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7FE255F2B6E87010021DE57 /* Preview Assets.xcassets */; };
 		B7FE25692B6E881A0021DE57 /* ARSessionDelegateAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE25682B6E881A0021DE57 /* ARSessionDelegateAdapter.swift */; };
 		B7FE256B2B6E91FD0021DE57 /* GameCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE256A2B6E91FD0021DE57 /* GameCoordinator.swift */; };
+		DE03376A2B6F1428008F0D46 /* pumpkin.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DE0337682B6F1428008F0D46 /* pumpkin.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		B7FE255F2B6E87010021DE57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B7FE25682B6E881A0021DE57 /* ARSessionDelegateAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSessionDelegateAdapter.swift; sourceTree = "<group>"; };
 		B7FE256A2B6E91FD0021DE57 /* GameCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCoordinator.swift; sourceTree = "<group>"; };
+		DE0337682B6F1428008F0D46 /* pumpkin.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pumpkin.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				B7FE255C2B6E87010021DE57 /* Assets.xcassets */,
 				B75C9CCA2B6ED3F000BA9336 /* AR */,
 				B7FE255F2B6E87010021DE57 /* Preview Assets.xcassets */,
+				DE0337682B6F1428008F0D46 /* pumpkin.usdz */,
 			);
 			path = HitTheCube;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE03376A2B6F1428008F0D46 /* pumpkin.usdz in Resources */,
 				B7FE25602B6E87010021DE57 /* Preview Assets.xcassets in Resources */,
 				B7FE255D2B6E87010021DE57 /* Assets.xcassets in Resources */,
 			);
@@ -345,9 +349,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4Z594485N8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Hit The cube";
@@ -364,7 +369,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ikabogiti.HitTheCube;
+				PRODUCT_BUNDLE_IDENTIFIER = ikabogiti.HitTheCube1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -382,9 +387,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4Z594485N8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Hit The cube";
@@ -401,7 +407,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ikabogiti.HitTheCube;
+				PRODUCT_BUNDLE_IDENTIFIER = ikabogiti.HitTheCube1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

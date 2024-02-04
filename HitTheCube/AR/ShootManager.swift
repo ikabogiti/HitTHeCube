@@ -22,7 +22,7 @@ class ShootManager {
         let radius: Float = 0.1
         let blob = ModelEntity(
             mesh: .generateSphere(radius: radius),
-            materials: [SimpleMaterial(color: .yellow, isMetallic: true)]
+            materials: [UnlitMaterial(color: .yellow)]
         )
         let physicBody = PhysicsBodyComponent(massProperties: .init(mass: 1), mode: .dynamic)
         blob.components.set([physicBody, PhysicsMotionComponent()])
